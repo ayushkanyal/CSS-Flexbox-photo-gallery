@@ -33,9 +33,11 @@ h1{
     margin: 0 auto;
 }
 img{
-    width: 550px;
+    width:100%;
+    max-width: 550px;
     height: 550px;
-    border-radius: 5px;
+    object-fit:cover;
+    border-radius: 10px;
     margin: 0 auto;
 }
 .content::after {
